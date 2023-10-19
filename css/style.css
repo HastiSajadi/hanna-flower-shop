@@ -1,5 +1,5 @@
 *{
-    font-family: "Vazir";
+    font-family: Vazir;
     margin: 0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
@@ -18,6 +18,30 @@ html{
 section{
     padding: 2rem 2.5rem;
 }
+
+/* scrollbar style  */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #051127; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #959BBD; 
+  }
+/* scrollbar style  */
 
 /* header section  */
 
@@ -59,6 +83,7 @@ section{
     align-items: center;
     box-shadow: 1px 4px 6px 0px #21323e42;
     padding: 1rem 0;
+    background-color: #959BBD;
 }
 .header-2.active{
     position: fixed;
@@ -105,3 +130,60 @@ section{
     margin-top: 3rem;
 }
 /* end of head banner section  */
+
+/* category section  */
+.category{
+    background: #EFF4F8;
+    text-align: center;
+}
+.category h1{
+    font-size: 4rem;
+    color: #21323E;
+    margin: 5rem 0;
+}
+.category h1 span{
+    color: #959BBD;
+}
+.category .card-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.category .card-box .box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 6px #21323E;
+    padding: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.category .card-box .box:hover{
+    transform: translateY(-10px);
+}
+.category .card-box .box h3{
+    font-size: 2rem;
+    color: #465375;
+}
+.category .card-box .box img{
+    width: 70%;
+    margin: 2rem 0;
+    border-radius: 10px;
+}
+.category .card-box .box .btn{
+    background-color: #959BBD;
+    color: #21323E;
+    border-radius: 30px;
+    padding: .5rem 1rem;
+    box-shadow: 0 2px 3px #21323E;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.category .card-box .box .btn:hover{
+    background-color: #21323E;
+    color: #EFF4F8;
+    box-shadow: none;
+}
+
+/* end of category section  */

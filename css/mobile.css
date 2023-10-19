@@ -1,17 +1,22 @@
 @media (max-width : 768px){
     /* header section  */
     .header-1 .head-icons{
-        position: absolute;
+        width:4rem;
+        position: fixed;
         right: 20px;
         top: 50%;
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
+        text-align: center;
         background-color: #051127;
         padding: 1rem .5rem;
         border-radius: 50px;
     }
     .header-1 .head-icons i{
-        width: fit-content;
+        width: 100%;
+        padding: .7rem;
+        font-size: 1.5rem;
+
     }
     .header-1 .head-icons i:hover{
         color: #EFF4F8;
@@ -79,5 +84,19 @@
         font-size: 1.5rem;
        }
        /* head banner section  */
+
+       /* category section  */
+       .category h1{
+        font-size: 2.5rem;
+       }
+       .category .card-box{
+        flex-direction: column;
+        align-items: center;
+       }
+       .category .card-box .box{
+        width: 80%;
+        margin-bottom: 5rem;
+       }
+       /* category section  */
 
 }
