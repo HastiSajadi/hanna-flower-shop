@@ -89,14 +89,40 @@
        .category h1{
         font-size: 2.5rem;
        }
-       .category .card-box{
+        .card-box{
         flex-direction: column;
         align-items: center;
        }
-       .category .card-box .box{
+        .card-box .box{
         width: 80%;
         margin-bottom: 5rem;
        }
        /* category section  */
 
+       /* product section  */
+       .product h1{
+        font-size: 2.5rem;
+       }
+       .product .card-box .box .box-details .icons i{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+       }
+       .product .card-box .box .box-details .price h3{
+        font-size: 1rem;
+       }
+       /* product section  */
+}
+
+@media (min-width: 426px){
+    .product .card-box .box .box-details .icons i{
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+       }
+
+
+    .product .card-box .box .box-details .price h3{
+        font-size: 2rem;
+       }
 }

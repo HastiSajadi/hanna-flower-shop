@@ -144,12 +144,12 @@ section{
 .category h1 span{
     color: #959BBD;
 }
-.category .card-box{
+.card-box{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-.category .card-box .box {
+.card-box .box {
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -158,20 +158,21 @@ section{
     padding: 1rem;
     border-radius: 20px;
     cursor: pointer;
+    background-color: #fff;
 }
-.category .card-box .box:hover{
+.card-box .box:hover{
     transform: translateY(-10px);
 }
-.category .card-box .box h3{
+.card-box .box h3{
     font-size: 2rem;
     color: #465375;
 }
-.category .card-box .box img{
+.card-box .box img{
     width: 70%;
     margin: 2rem 0;
     border-radius: 10px;
 }
-.category .card-box .box .btn{
+.card-box .box .btn{
     background-color: #959BBD;
     color: #21323E;
     border-radius: 30px;
@@ -180,10 +181,61 @@ section{
     cursor: pointer;
     font-size: 1.5rem;
 }
-.category .card-box .box .btn:hover{
+.card-box .box .btn:hover{
     background-color: #21323E;
     color: #EFF4F8;
     box-shadow: none;
 }
 
 /* end of category section  */
+
+/* product section  */
+.product{
+    width: 100%;
+    background-image: linear-gradient(rgb(192,211,228), rgb(96,106,114));
+    text-align: center;
+}
+
+.product h1{
+    font-size: 4rem;
+    color: #21323E;
+    margin: 5rem 0;
+}
+.product h1 span{
+    color: #465375;
+}
+.product .card-box{
+    flex-wrap: wrap;
+}
+.product .card-box img{
+    margin: 1rem 0;
+    width: 80%;
+}
+.product .card-box .box{
+    margin-bottom: 3rem;
+}
+.product .card-box .box .box-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+.product .card-box .box .box-details .icons i{
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    box-shadow: inset 0 0 5px 0 #0000005b;
+    color: #465375;
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.product .card-box .box .box-details .icons i:nth-child(2){
+    margin: 0 .5rem;
+}
+.product .card-box .box .btn{
+    font-weight: bold;
+}
+/* end of product section  */
