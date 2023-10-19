@@ -1,0 +1,63 @@
+@media (max-width : 768px){
+    .header-1 .logo img{
+       
+    }
+    .header-1 .head-icons{
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        flex-direction: column;
+        align-items: flex-end;
+        background-color: #051127;
+        padding: 1rem .5rem;
+        border-radius: 50px;
+    }
+    .header-1 .head-icons i{
+        width: fit-content;
+    }
+    .header-1 .head-icons i:hover{
+        color: #EFF4F8;
+        border: .1rem solid #EFF4F8;
+    }
+    .header-1 .head-icons i:nth-child(2){
+        margin: 1rem 0;
+    }
+
+
+    #menu-bar{
+        display: block;
+        font-size: 2rem;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+        color: #051127;
+    }
+    .header-2{
+        box-shadow: none;
+    }
+    .header-2 .navbar{
+        position: absolute;
+        top: 10%; left: 0; right: 0;
+        background-color: #EFF4F8;
+        padding: 1rem 0;
+        display: none;
+       }
+       .header-2 .navbar.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+       }
+       .header-2 .navbar a{
+        width: 50%;
+        font-size: 1.5rem;
+        display: block;
+        text-align: center;
+        background-color: #051127;
+        color: #EFF4F8;
+        padding: 1rem;
+        margin: 1rem 0;
+       }
+}

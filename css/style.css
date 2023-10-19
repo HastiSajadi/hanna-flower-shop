@@ -1,5 +1,82 @@
-h1{
-    font-family: "Vazir";
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
 }
 
-   
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 2rem 2.5rem;
+}
+
+/* header section  */
+
+.header-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFF4F8;
+    padding: .5rem 1rem;
+}
+.header-1 .logo img{
+    width: 15%;
+    border-radius: 50px;
+}
+.header-1 .head-icons{
+    display: flex;
+}
+.header-1 .head-icons i{
+    font-size: 1.7rem;
+    color: #959BBD;
+    border: .1rem solid #959BBD;
+    padding: 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 6px #21323e97;
+}
+.header-1 .head-icons i:hover{
+    color: #21323E;
+    border: .1rem solid #21323E;
+}
+.header-1 .head-icons i:nth-child(2){
+    margin: 0 1rem;
+}
+
+.header-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 4px 6px 0px #21323e42;
+    padding: 1rem 0;
+}
+.header-2.active{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+.header-2 .navbar a{
+    font-size: 1.7rem;
+    color: #465375;
+    margin: 0 2rem;
+    padding: .5rem 1.5rem;
+    border-radius: 50px;
+}
+.header-2 .navbar a:hover{
+    background-color: #21323E;
+    color: #EFF4F8;
+}
+#menu-bar{
+    display: none;
+}
+/* end of header section  */
