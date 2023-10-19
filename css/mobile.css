@@ -1,7 +1,5 @@
 @media (max-width : 768px){
-    .header-1 .logo img{
-       
-    }
+    /* header section  */
     .header-1 .head-icons{
         position: absolute;
         right: 20px;
@@ -35,6 +33,7 @@
     }
     .header-2{
         box-shadow: none;
+        padding: 0;
     }
     .header-2 .navbar{
         position: absolute;
@@ -60,4 +59,25 @@
         padding: 1rem;
         margin: 1rem 0;
        }
+       /* header section  */
+       /* head banner section  */
+       .head-banner{
+        background: url(../img/banner-mobile.jpg) , #E4DAFF;
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+        height: 60vh;
+        align-items: center;
+        justify-content: end;
+        padding: 3rem;
+       }
+
+       .head-title{
+        font-size: 3rem;
+       }
+       .head-info{
+        font-size: 1.5rem;
+       }
+       /* head banner section  */
+
 }
