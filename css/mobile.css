@@ -148,6 +148,24 @@
         padding: 1rem 4rem;
        }
        /* discount section  */   
+       /* contact section  */
+
+.contact form .input-box{
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.contact form .input-box input , .contact form textarea{
+    width: 100%;
+}
+
+.contact form textarea{
+    height: 20rem;
+    resize: none;
+    width: 100%;
+}
+
+/* end of contact section  */
 }
 
 @media (min-width: 426px){
