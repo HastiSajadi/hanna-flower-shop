@@ -166,6 +166,17 @@
 }
 
 /* end of contact section  */
+
+/* footer section  */
+
+.footer{
+    text-align: center;
+}
+.footer .box-container .box-logo{
+    order: -1;
+}
+
+/* footer section  */
 }
 
 @media (min-width: 426px){
@@ -180,5 +191,6 @@
         font-size: 2rem;
        }
 
+       
      
 }

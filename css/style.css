@@ -375,3 +375,67 @@ section{
     color: #EFF4F8;
 }
 /* end of contact section  */
+
+/* footer section  */
+.footer{
+    background: #232A3B;
+    color: #E5DEFF;
+    text-align: right;
+}
+.footer .box-container{
+    display: flex;
+    justify-content: end;
+    gap: 4rem;
+    flex-wrap: wrap;
+    
+}
+
+.footer .box-container .box{
+    padding: 1rem 0 ;
+    flex: 1 1 25rem;
+}
+
+.footer .box-container .box-logo h1{
+    font-size: 4rem;
+}
+
+.footer .box-container .box-logo p{
+    font-size: 1.7rem;
+    margin: 1rem 0;
+    text-align: right;
+    padding: .7rem 0;
+}
+
+.footer .box-container .box .share a{
+    padding: 0;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 1.7rem;
+    color: #eee;
+}
+.footer .box-container .box .share a:hover{
+    color: #21323E;
+}
+
+.footer .box-container .box h3{
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+
+.footer .box-container .box .links{
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .links a{
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.7rem;
+    color: #eee;
+    margin-bottom: .5rem;
+}
+
+.footer .box-container .box .links a:hover{
+    color: #21323E ;
+}
+/* end of footer section  */
