@@ -112,6 +112,42 @@
         font-size: 1rem;
        }
        /* product section  */
+
+        /* discount section  */
+     .discount{
+        background-position: left;
+        padding: 2rem;
+       }
+    
+       .discount .content{
+        max-width: 100%;
+        text-align: right ;
+        
+       }
+       .discount .content .title{
+        color: #051127;
+        font-size: 2rem;
+       }
+       .discount .content p{
+        font-size: 1.2rem;
+        color: #051127;
+       }
+       .discount .content .count-down{
+        justify-content: end;
+       }
+       .discount .content .count-down .box h3{
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+       }
+       .discount .content .count-down .box span{
+        font-size: 1.5rem;
+       }
+       .discount .content .btn{
+        font-size: 1rem;
+        padding: 1rem 4rem;
+       }
+       /* discount section  */   
 }
 
 @media (min-width: 426px){
@@ -125,4 +161,6 @@
     .product .card-box .box .box-details .price h3{
         font-size: 2rem;
        }
+
+     
 }

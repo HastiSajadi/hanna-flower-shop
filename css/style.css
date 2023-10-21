@@ -239,3 +239,72 @@ section{
     font-weight: bold;
 }
 /* end of product section  */
+/* discount section  */
+.discount{
+    width: 100%;
+    background: url(../img/deal-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 7rem ;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+.discount .content{
+    max-width: 50rem;
+}
+.discount .content .title{
+    font-size: 4rem;
+    color: #EFF4F8;
+}
+.discount .content p {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    color: #EFF4F8;
+}
+.discount .content .count-down{
+    display: flex;
+    gap: 1rem;
+    padding: .5rem 0;
+    justify-content: end;
+    margin-bottom: 1.5rem;
+}
+.discount .content .count-down .box{
+    width: 9rem;
+    text-align: center;
+}
+.discount .content .count-down .box h3{
+    color: #465375;
+    background: #C0D3E4;
+    height: 7rem;
+    line-height: 7rem;
+    width: 100%;
+    font-size: 4rem;
+    border-top-left-radius: 20px; border-top-right-radius: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.49);
+}
+.discount .content .count-down .box span{
+    background: #465375;
+    color: #C0D3E4;
+    font-size: 2rem;
+    padding: .5rem 0;
+    display: block;
+    border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.49);
+}
+.discount .content .btn{
+    background-color: #465375;
+    color: #C0D3E4;
+    border-radius: 30px;
+    padding: 1rem 5rem;
+    margin-top: 1rem;
+    box-shadow: 0 2px 3px #21323E;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.discount .content .btn:hover{
+    background-color: #21323E;
+    color: #EFF4F8;
+}
+/* discount section  */
