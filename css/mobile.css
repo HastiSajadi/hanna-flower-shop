@@ -67,21 +67,29 @@
        /* header section  */
        /* head banner section  */
        .head-banner{
-        background: url(../img/banner-mobile.jpg) , #E4DAFF;
+        background: url(../img/banner-mobile.jpg) , #E9DFFF;
         background-size: contain;
         background-position: top;
         background-repeat: no-repeat;
         height: 60vh;
         align-items: center;
         justify-content: end;
-        padding: 3rem;
+        padding: 0;
        }
-
+       .banner-detail{
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(transparent , #051127);
+        padding: 4rem 0;
+       }
        .head-title{
         font-size: 3rem;
+        color: #EFF4F8;
        }
        .head-info{
         font-size: 1.5rem;
+        color: #959BBD;
+        font-weight: bold;
        }
        /* head banner section  */
 
