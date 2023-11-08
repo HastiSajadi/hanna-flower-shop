@@ -32,7 +32,7 @@ function like(x) {
 
 // deal countDown
 
-let countDate = new Date('october 30 , 2023 02:00:00').getTime();
+let countDate = new Date('november 30 , 2023 02:00:00').getTime();
 
 function countDown(){
 
