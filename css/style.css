@@ -156,7 +156,6 @@ section{
     box-shadow: 0 0 6px #21323E;
     padding: 1rem;
     border-radius: 20px;
-    cursor: pointer;
     background-color: #fff;
 }
 .card-box .box:hover{
@@ -212,6 +211,7 @@ section{
 }
 .product .card-box .box{
     margin-bottom: 3rem;
+    
 }
 .product .card-box .box .box-details{
     width: 100%;
@@ -230,6 +230,7 @@ section{
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .product .card-box .box .box-details .icons i:nth-child(2){
     margin: 0 .5rem;
