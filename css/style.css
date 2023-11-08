@@ -60,20 +60,19 @@ section{
 .header-1 .head-icons{
     display: flex;
 }
-.header-1 .head-icons i{
+.header-1 .head-icons .icon i{
     font-size: 1.7rem;
     color: #959BBD;
-    border: .1rem solid #959BBD;
     padding: 1rem;
-    border-radius: 50px;
     cursor: pointer;
     box-shadow: 0 0 6px #21323e97;
+    border: none;
+    border-radius: 50px;
 }
-.header-1 .head-icons i:hover{
+.header-1 .head-icons .icon i:hover{
     color: #21323E;
-    border: .1rem solid #21323E;
 }
-.header-1 .head-icons i:nth-child(2){
+.header-1 .head-icons .icon:nth-child(2){
     margin: 0 1rem;
 }
 

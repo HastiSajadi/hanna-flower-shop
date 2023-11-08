@@ -9,20 +9,27 @@
         align-items: center;
         text-align: center;
         background-color: #051127;
-        padding: 1rem .5rem;
+        padding: 1rem 2.5rem;
         border-radius: 50px;
     }
-    .header-1 .head-icons i{
+    .header-1 .head-icons .icon{
+        border: .1rem solid #959BBD;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .header-1 .head-icons .icon i{
         width: 100%;
-        padding: .7rem;
         font-size: 1.5rem;
-
+        box-shadow: none;
+        padding: 0;
     }
-    .header-1 .head-icons i:hover{
+    .header-1 .head-icons .icon i:hover{
         color: #EFF4F8;
-        border: .1rem solid #EFF4F8;
     }
-    .header-1 .head-icons i:nth-child(2){
+    .header-1 .head-icons .icon:nth-child(2){
         margin: 1rem 0;
     }
 
