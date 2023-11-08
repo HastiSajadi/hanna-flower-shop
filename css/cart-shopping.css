@@ -1,0 +1,185 @@
+.cart{
+    width: 100%;
+    padding: 2rem 3rem;
+    margin: 2rem 0;
+}
+.cart .cart-container h1{
+    font-size: 3rem;
+    color: #232A3B;
+    text-align: right;
+}
+.cart .cart-container table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-top: 2rem;
+    text-align: right;
+}
+.cart .cart-container table thead{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.cart .cart-container table thead td{
+    background-color: #232A3B;
+    color: #EFF4F8;
+    text-align: center;
+    padding: .5rem 0;
+}
+.cart .cart-container table tbody td{
+    text-align: center;
+    padding: .5rem 0;
+    border: .1rem solid #232A3B;
+}
+.cart .cart-container table tbody td h5{
+    font-size: 1.5rem;
+    color: #232A3B;
+}
+.cart .cart-container table tbody td img{
+    width: 7rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.cart .cart-container table tbody td a {
+    text-decoration: none;
+    color: #232A3B;
+    font-size: 1.5rem;
+}
+.cart .cart-container table td:nth-child(4){
+    width: 15rem;
+}
+
+
+.cart-bottom {
+    width: 100%;
+}
+.cart-bottom .row{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-bottom .row .coupon{
+    width: 45%;
+    border: .1rem solid #232A3B;
+    text-align: right;
+    border-radius: 10px;
+    height: fit-content;
+}
+.cart-bottom .row .coupon h5 , .cart-bottom .row .total  .title{
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: #232A3B;
+    color: #EFF4F8;
+    padding: 1rem;
+    border: none;
+    border-top-left-radius: 10px; border-top-right-radius: 10px;
+}
+
+.cart-bottom .row .coupon p{
+    font-size: 1.5rem;
+    color: #232a3bc1;
+    padding: 1rem;
+}
+.cart-bottom .row .coupon input{
+    display: block;
+    width: 20%;
+    background-color: #232A3B;
+    float: right;
+    margin: 1rem;
+    padding: .5rem 1rem;
+    text-align: right;
+    border-radius: 10px;
+}
+.cart-bottom .row .coupon button{
+    background-color: #232A3B;
+    border: .1rem solid #232A3B;
+    color: #EFF4F8;
+    font-size: 1.2rem;
+    font-weight: bold;
+    float: left;
+    border-radius: 10px;
+    padding: .5rem 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.cart-bottom .row .coupon button:hover ,.cart-bottom .row .total button:hover{
+    background-color: transparent;
+    color: #232A3B;
+}
+
+.cart-bottom .row .total{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: .1rem solid #232A3B;
+    border-radius: 10px;
+}
+.cart-bottom .row .total div {
+    width: 100%;
+    text-align: right;
+}
+.cart-bottom .row .total .info {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.cart-bottom .row .total .info h5{
+    font-size: 1.5rem;
+    color: #232A3B;
+    order: 2;
+}
+.cart-bottom .row .total .info p{
+    font-size: 1.5rem;
+    color: #232a3bbe;
+}
+.cart-bottom .row .total button{
+    background-color: #232A3B;
+    color: #EFF4F8;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: .5rem 4rem;
+    margin: 1rem;
+    cursor: pointer;
+    border: .1rem solid #232A3B;
+}
+.cart-bottom .row .total hr{
+    background-color: #232A3B;
+    height: 1px;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+
+@media (max-width:700px){
+    .cart{
+        padding: 1rem;
+    }
+    .cart .cart-container table thead{
+        font-size: 1.2rem;
+        border: .1rem solid #232A3B;
+    }
+    .cart .cart-container table td:nth-child(4){
+        width: 5rem;
+    }
+    .cart .cart-container table tbody td h5{
+        font-size: 1.1rem;
+    }
+    .cart .cart-container table tbody td img{
+        width: 5rem;
+        height: 3rem;
+        object-fit: cover;
+    }
+    .cart .cart-container table tbody td a {
+        font-size: 1.2rem;
+    }
+    .cart-bottom .row{
+        flex-direction: column;
+    }
+    .cart-bottom .row .coupon{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .cart-bottom .row .total{
+        width: 100%;
+    }
+}
