@@ -27,15 +27,7 @@ function like(x) {
 
 
 
-//   function addCart(x){
-//     if(x.innerHTML === "افزودن به سبد خرید"){
-//         x.innerHTML = "حذف از سبد خرید"
-//         document.querySelector('.fa-bookmark').classList.toggle('fa-solid')
-//     }else{
-//         x.innerHTML = "افزودن به سبد خرید"
-//         document.querySelector('.fa-bookmark').classList.remove('fa-solid')
-//     }
-//   }
+
 
 
 // deal countDown
