@@ -41,10 +41,13 @@
     <section class="s-product">
         <div class="container">
             <div class="img-sec">
-                <img src="img/product3.jpg" class="small-img" alt="">
+                <img src="img/product3.jpg" alt="" id="main-img" >
 
 
                <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/product3.jpg" class="small-img" alt="">
+                </div>
                 <div class="small-img-col">
                     <img src="img/product3-2.jpg" class="small-img" alt="">
                 </div>
@@ -97,7 +100,134 @@
         </div>
     </section>
 
+<!-- products section  -->
+<section class="product" id="product">
+    <h1> آخرین<span> محصولات</span></h1>
+    <div class="card-box">
+        <div class="box" id="product-1">
 
+            <img src="img/product1.jpg" alt="">
+
+            <div class="box-details">
+
+               <div class="icons">
+                <i class="fa-regular fa-bookmark"></i>
+                <i onclick="like(this)" class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+               </div>
+
+               <div class="price">
+                <h3>450.000 T</h3>
+               </div>
+
+            </div>
+
+            <button class="btn" onclick="addCart(this)"  type="submit">افزودن  به سبد خرید</button>
+        </div>
+        <div class="box" id="product-2">
+
+            <img src="img/product2.jpg" alt="">
+
+            <div class="box-details">
+
+               <div class="icons">
+                <i class="fa-regular fa-bookmark"></i>
+                <i onclick="like(this)" class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+               </div>
+
+               <div class="price">
+                <h3>450.000 T</h3>
+               </div>
+               
+            </div>
+
+            <button class="btn" onclick="addCart(this)"  type="submit">افزودن  به سبد خرید</button>
+        </div>
+        <div class="box" id="product-3">
+
+            <a href="product-1.html"><img src="img/product3.jpg" alt=""></a>
+
+            <div class="box-details">
+
+               <div class="icons">
+                <i class="fa-regular fa-bookmark"></i>
+                <i onclick="like(this)" class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+               </div>
+
+               <div class="price">
+                <h3>450.000 T</h3>
+               </div>
+               
+            </div>
+
+            <button onclick="addCart(this)"  class="btn" type="submit">افزودن  به سبد خرید</button>
+        </div>
+        <div class="box" id="product-4">
+
+            <img src="img/product1.jpg" alt="">
+
+            <div class="box-details">
+
+               <div class="icons">
+                <i class="fa-regular fa-bookmark"></i>
+                <i onclick="like(this)" class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+               </div>
+
+               <div class="price">
+                <h3>450.000 T</h3>
+               </div>
+               
+            </div>
+
+            <button onclick="addCart(this)"  class="btn" type="submit">افزودن  به سبد خرید</button>
+        </div>
+        <div class="box" id="product-5">
+
+            <img src="img/product2.jpg" alt="">
+
+            <div class="box-details">
+
+               <div class="icons">
+                <i  id="bookmark-icon"class="fa-regular fa-bookmark"></i>
+                <i onclick="like(this)" class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-eye"></i>
+               </div>
+
+               <div class="price">
+                <h3>450.000 T</h3>
+               </div>
+               
+            </div>
+
+            <button onclick="addCart(this)"  class="btn add-cart" type="submit">افزودن به سبد خرید</button>
+        </div>
+        <div class="box" id="product-6">
+
+            <img src="img/product3.jpg" alt="">
+
+            <div class="box-details">
+
+               <div class="icons">
+                <i  class="fa-regular fa-bookmark"></i>
+                <i  onclick="like(this)" class="fa-regular fa-heart"></i>
+                <i  class="fa-solid fa-eye"></i>
+               </div>
+
+               <div class="price">
+                <h3>450.000 T</h3>
+               </div>
+               
+            </div>
+
+            <button onclick="addCart(this)"  class="btn add-cart" type="submit">افزودن به سبد خرید</button>
+        </div>
+      
+    </div>
+</section>
+<!-- end of products section  -->
 
 
     <!-- footer section  -->

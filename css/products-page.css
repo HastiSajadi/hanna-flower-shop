@@ -15,6 +15,7 @@
 
 .s-product .container .img-sec img{
     width: 30rem;
+    height: fit-content;
     margin-right: 1rem;
     border-radius: 10px;
 }
@@ -26,8 +27,10 @@
 }
 
 .s-product .container .small-img-group .small-img-col .small-img{
-    width: 9rem;
+    width: 7rem;
     border-radius: 10px;
+    height: fit-content;
+    cursor: pointer;
 }
 
 .s-product .container .detail-sec{
@@ -43,7 +46,7 @@
     padding: 2rem;
     border-radius: 10px;
     text-align: right;
-    
+    height: 100%;
 }
 .s-product .container .detail-sec .detail-container h1{
     color: #354f62;
@@ -144,6 +147,16 @@
         width: 100%;
         order: 0;
         margin-bottom: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s-product .container .img-sec img{
+       width: 32rem;
+       margin:1rem 0;
+    }
+    .s-product .container .img-sec .small-img-group{
+        flex-direction: row;
+        width: 50%;
     }
     .s-product .container .detail-sec{
         width: 100%;
@@ -157,9 +170,13 @@
     }
    
     .s-product .container .img-sec img{
-        width: 15rem;
-        margin-right: 1rem;
+        width: 20rem;
         border-radius: 10px;
+    }
+    .s-product .container .img-sec .small-img-group{
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-between;
     }
     .s-product .container .small-img-group .small-img-col .small-img{
         width: 5rem;
