@@ -68,6 +68,22 @@ section{
     box-shadow: 0 0 6px #21323e97;
     border: none;
     border-radius: 50px;
+    position: relative;
+}
+.header-1 .head-icons .icon i.fa-bag-shopping span{
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    font-size: 1.5rem;
+    background-color: #051127;
+    color: #959BBD;
+    width: 20px;
+    height: 20px;
+    padding: .2rem;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header-1 .head-icons .icon i:hover{
     color: #21323E;
@@ -232,6 +248,7 @@ section{
     align-items: center;
     cursor: pointer;
 }
+
 .product .card-box .box .box-details .icons i:nth-child(2){
     margin: 0 .5rem;
 }

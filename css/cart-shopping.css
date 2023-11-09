@@ -80,8 +80,8 @@
 }
 .cart-bottom .row .coupon input{
     display: block;
-    width: 20%;
-    background-color: #232A3B;
+    width: 30%;
+    border: .1rem solid #232A3B;
     float: right;
     margin: 1rem;
     padding: .5rem 1rem;

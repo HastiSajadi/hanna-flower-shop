@@ -29,6 +29,21 @@
     .header-1 .head-icons .icon i:hover{
         color: #EFF4F8;
     }
+    .header-1 .head-icons .icon i.fa-bag-shopping span{
+        position: absolute;
+        bottom: -10px;
+        right: -20px;
+        font-size: 1.5rem;
+        background-color: #959BBD;
+        color: #051127;
+        width: 20px;
+        height: 20px;
+        padding: .2rem;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .header-1 .head-icons .icon:nth-child(2){
         margin: 1rem 0;
     }
