@@ -156,7 +156,7 @@
     }
     .s-product .container .img-sec .small-img-group{
         flex-direction: row;
-        width: 70%;
+        width: 100%;
     }
     .s-product .container .detail-sec{
         width: 100%;
